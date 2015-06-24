@@ -4,3 +4,8 @@ print set_
 if 'apple' in set_:
     print 'yes'
 'apple' in set_
+
+seta = {'Justin','Mary', 'Peter', 'apple'}
+setb = {'Justin','Mike', 'Tom'}
+print seta&setb
+print seta&set_
