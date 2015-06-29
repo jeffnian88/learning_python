@@ -1,4 +1,5 @@
 a=[1,2,3,4,5]
+print 1 in a
 for x in a:
     print x*x
 
@@ -20,4 +21,5 @@ nested=matrix
 #         first forloop         secand forloop
 list_= [x for sublist in nested for x in sublist]
 print list_
+
 
