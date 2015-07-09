@@ -1,3 +1,10 @@
+#install django
+
+
+# start a project
+django-admin.py startproject xxx
+
+
 # migrate database schema
 python manage.py migrate
 
