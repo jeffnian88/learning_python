@@ -3,9 +3,11 @@ def foo():
     print 'hello in foo()'
 
 def decorator(func):
-    # manipulate func
-    print 'hello in decorator()'
-    return func
+    def wrapper():
+        # manipulate func
+        print 'hello in decorator()'
+        func()
+    return wrapper
 
 foo = decorator(foo)  # Manually decorate
 
